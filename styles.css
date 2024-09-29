@@ -1,0 +1,111 @@
+body {
+    font-family:  sans-serif;
+    background-color: #f9e2d6;
+    font-weight: 400;
+}
+.content{
+    margin: 0;
+    padding: 80px 0px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.container {
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 0 40px rgba(0, 0, 0, 0.1);
+    width: 300px;
+    margin-right: 20px;
+    text-align: center;
+}
+
+h1 {
+    font-size: 20px;
+    margin-bottom: 20px;
+    background: linear-gradient(to right, #202835, #000000);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+h2 {
+    font-size: 16px;
+    margin-bottom: 10px;
+    background: linear-gradient(to right, #2e3845, #000000);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+.input-field {
+    margin-bottom: 15px;
+    text-align: left;
+}
+
+label {
+    display: block;
+    font-size: 14px;
+    margin-bottom: 5px;
+}
+
+input {
+    width: 100%;
+    padding: 8px;
+    box-sizing: border-box;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+
+button {
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 16px;
+}
+
+button:hover {
+    background-color: #0056b3;
+}
+
+#result {
+    margin-top: 20px;
+    font-size: 16px;
+    color: #333;
+}
+.box{
+    display: flex;
+    justify-content: center;
+}
+
+/* Explanation card styling */
+#explanationCard {
+    padding: 20px;
+    padding-right: 35px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    background-color: #fff;
+    font-size: 15px;
+    width: 300px;
+    height: 515px;
+    text-align: left;
+}
+
+.hidden {
+    display: none;
+}
+@media only screen and (max-width: 750px){
+    .content{
+        flex-direction: column;
+    }
+    .container{
+        margin: auto;
+        margin-bottom: 20px;
+    }
+    #explanationCard{
+        padding-right: 20px;
+    }
+}
+
